@@ -16,6 +16,6 @@ public class ExerciciosroniApplication {
 		Exercicio2.resolucao(); // é como se fosse "função resolução()" do portugol
 
 	}
-
+	
 
 }
