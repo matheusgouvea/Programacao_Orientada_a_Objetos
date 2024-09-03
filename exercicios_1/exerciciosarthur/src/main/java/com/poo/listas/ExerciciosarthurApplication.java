@@ -1,4 +1,4 @@
-package com.poo.exerciciosarthur;
+package com.poo.listas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ public class ExerciciosarthurApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExerciciosarthurApplication.class, args);
 
-		Exercicio8.resolucao();
+		com.poo.lista2.Exercicio5.resolucao();
 	}
 
 }
