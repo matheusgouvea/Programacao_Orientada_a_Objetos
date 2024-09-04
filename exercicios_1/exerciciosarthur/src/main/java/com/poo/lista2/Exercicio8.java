@@ -25,7 +25,7 @@ public class Exercicio8 {
             pontuacao ++;
           }else{
             chances--;
-            System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");  
+            System.out.println("Resposta errada, você tem "+chances+" chances restantes.");  
           }
           if(chances > 0){
             System.out.println("Qual é o nome do herói que usa um escudo redondo nos filmes da Marvel?"+
@@ -39,7 +39,7 @@ public class Exercicio8 {
                 pontuacao++;
             }else{
                 chances--;
-                System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+                System.out.println("Resposta errada, você tem "+chances+" chances restantes.");
             }
             if(chances > 0){
                 System.out.println("Qual é o nome do universo de super-heróis criado por Stan Lee e Jack Kirby que inclui personagens como Spider-Man e Iron Man?"+
@@ -53,7 +53,7 @@ public class Exercicio8 {
                     pontuacao++;
                 }else{
                     chances--;
-                    System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+                    System.out.println("Resposta errada, você tem "+chances+" chances restantes.");
                 }
           }
           if(chances > 0){
@@ -68,7 +68,7 @@ public class Exercicio8 {
                 pontuacao++;
             }else{
                 chances--;
-                System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+                System.out.println("Resposta errada, você tem "+chances+" chances restantes.");
             }
     }
     if(chances > 0){
@@ -79,11 +79,11 @@ public class Exercicio8 {
         "\nc) Five Nights at Freddys"+
         "\nd) Amnesia");
         char resposta5 = leia.next().toLowerCase().charAt(0);
-        if(resposta5 == 'b'){
+        if(resposta5 == 'a'){
             pontuacao++;
         }else{
             chances--;
-            System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+            System.out.println("Resposta errada, você tem "+chances+" chances restantes.");
         }
 
         }
