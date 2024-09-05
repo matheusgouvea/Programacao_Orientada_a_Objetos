@@ -9,7 +9,7 @@ public class ExerciciosarthurApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExerciciosarthurApplication.class, args);
 
-		com.poo.lista3.Exercicio4.resolucao();
+		com.poo.lista3.Exercicio5.resolucao();
 	}
 
 }
