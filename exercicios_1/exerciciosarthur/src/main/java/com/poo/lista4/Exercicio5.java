@@ -12,7 +12,7 @@ public class Exercicio5 {
         public static void resolucao() {
         
             ArrayList<String> listaCompras = new ArrayList<>();
-            Scanner scanner = new Scanner(System.in);
+            Scanner leia = new Scanner(System.in);
 
             int opcao = 0;
 
@@ -25,14 +25,14 @@ public class Exercicio5 {
             System.out.println("3. Sair");
             System.out.print("Escolha a opção: ");
             
-            opcao = scanner.nextInt();
-            scanner.nextLine(); 
+            opcao = leia.nextInt();
+            leia.nextLine(); 
 
             switch (opcao) {
                 case 1:
                    
                     System.out.print("\nDigite o nome do item: ");
-                    String item = scanner.nextLine();
+                    String item = leia.nextLine();
                     listaCompras.add(item);
                     System.out.println("\nItem '" + item + "' adicionado à lista.");
                     break;
